@@ -56,7 +56,7 @@ fun LoginScreen(onLoginClicked: (String) -> Unit) {
         modifier = Modifier
             .fillMaxSize()
             .padding(24.dp)
-            .imePadding(), // ✅ Moves UI above keyboard
+            .imePadding(),
         verticalArrangement = Arrangement.Top
     ) {
         Text(
