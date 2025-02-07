@@ -1,15 +1,24 @@
+# Ignore Android Studio project files (not needed for collaboration)
 *.iml
 .gradle
 /local.properties
+/.idea/
 /.idea/caches
 /.idea/libraries
-/.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+
+# Ignore OS/system files
 .DS_Store
+
+# Ignore build files and generated content
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# Keep Gradle wrapper (DO NOT ignore)
+!gradle/wrapper/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
